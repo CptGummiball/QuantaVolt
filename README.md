@@ -22,10 +22,12 @@ This repository holds the documentation, the [wiki](../../wiki), the
 is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [License](#license).
 
 <p align="center">
-  <img src="images/gallery/little_star.jpg" width="49%" alt="Little Star">
-  <img src="images/gallery/tokamak.jpg" width="49%" alt="Tokamak">
-  <img src="images/gallery/wind_turbine.jpg" width="49%" alt="Wind turbine">
-  <img src="images/gallery/solar_thermal.jpg" width="49%" alt="Solar thermal field">
+  <img src="images/gallery/tokamak.jpg" width="49%" alt="Tokamak with its plasma ring">
+  <img src="images/gallery/singularity_plant.jpg" width="49%" alt="Micro black hole plant with its accretion disc">
+  <img src="images/gallery/little_star.jpg" width="49%" alt="Little Star burning">
+  <img src="images/gallery/gas_turbine.jpg" width="49%" alt="Gas turbine running: combustor flames, rotors, exhaust">
+  <img src="images/gallery/steam_turbine.jpg" width="49%" alt="Steam turbine rotor in steam">
+  <img src="images/gallery/dimensional_store.jpg" width="49%" alt="Dimensional store with its floating core">
 </p>
 
 ## What QuantaVolt is
