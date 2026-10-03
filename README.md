@@ -10,6 +10,11 @@
 </p>
 
 <p align="center">
+  <a href="#downloads"><img src="images/avfabric.png" height="40" alt="Available for Fabric"></a>
+  <a href="#downloads"><img src="images/avneoforge.png" height="40" alt="Available for NeoForge"></a>
+</p>
+
+<p align="center">
   <a href="#downloads">Download</a> ·
   <a href="#version-status">Versions</a> ·
   <a href="../../wiki">Wiki</a> ·
@@ -36,14 +41,17 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
   Gasifier, Gas Turbine and Gas Engine (combined cycle through heat ports), solar, solar thermal and wind, fission with
   its own fuel chain (ore, yellowcake, enrichment in a Centrifuge Cascade, fuel rods), tokamak fusion, a Little Star,
   a micro black hole plant and a Hawking radiation reactor.
-* **Storage at every scale:** Energy Cell, Capacitor Bank, Battery Hall, Molten-Salt Store, Gravity Store, SMES and a
-  Dimensional Store.
-* **20 multiblock plants with free sizes:** you choose the size within limits, the controller screen tells you exactly
+* **Storage at every scale:** Energy Cell, Capacitor Bank, Battery Hall, Molten-Salt Store, Gravity Store, SMES, a
+  Dimensional Store, and a Large Gas Tank up to 32x32x32.
+* **21 multiblock plants with free sizes:** you choose the size within limits, the controller screen tells you exactly
   which block is wrong and where, and every plant has a step-by-step build guide with in-game pictures of every layer in
   the [wiki](../../wiki).
 * **Plants that behave like plants:** rotors with inertia, temperatures, pressures and cooling, warnings before
   anything goes wrong, and incidents if you ignore them. Terrain damage is a server option, and `safeMode` turns every
   incident into a plain shutdown.
+* **Radiation and protection:** running nuclear plants and their incidents radiate. Lead blocks, lead concrete, lead
+  glass and the radiation suit protect; reinforced concrete and glass stand up to incidents. Lead ore generates in the
+  world, and other mods' lead works through the `c:` tags.
 * **Computer control:** with CC: Tweaked installed, the plants are peripherals that report their readings and take
   commands.
 
@@ -55,13 +63,31 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
   [Pipster](https://modrinth.com/mod/pipster), which is **required**.
 * Optional integrations, only active when the other mod is installed: **Jade** (machine status), **JEI** (machine
   recipes), **CC: Tweaked** (computer control). They were started with the real mods on every version where those mods
-  exist; see [Supported Versions](../../wiki/Supported-Versions).
+  exist; a few exceptions caused by the partner mods themselves are listed on
+  [Supported Versions](../../wiki/Supported-Versions).
 * Materials use the common `c:` tags. Checked with Mekanism (uranium, steel; NeoForge 1.21.1) and Tech Reborn (steel; Fabric 1.21.1
   and 26.3); ores also generate in the biomes of Terralith and Biomes O' Plenty (checked on 1.21.1 and 26.3).
 
 ## Version status
 
-<!-- VERSION_TABLE -->
+| Minecraft | Fabric jar | NeoForge jar |
+|---|---|---|
+| 1.21.1 | `quantavolt-0.1.0+mc1.21.1-fabric.jar` | `quantavolt-0.1.0+mc1.21.1-neoforge.jar` |
+| 1.21.2 | `quantavolt-0.1.0+mc1.21.2-1.21.3-fabric.jar` | `quantavolt-0.1.0+mc1.21.2-1.21.3-neoforge.jar` |
+| 1.21.3 | `quantavolt-0.1.0+mc1.21.2-1.21.3-fabric.jar` | `quantavolt-0.1.0+mc1.21.2-1.21.3-neoforge.jar` |
+| 1.21.4 | `quantavolt-0.1.0+mc1.21.4-fabric.jar` | `quantavolt-0.1.0+mc1.21.4-neoforge.jar` |
+| 1.21.5 | `quantavolt-0.1.0+mc1.21.5-fabric.jar` | `quantavolt-0.1.0+mc1.21.5-neoforge.jar` |
+| 1.21.6 | `quantavolt-0.1.0+mc1.21.6-fabric.jar` | `quantavolt-0.1.0+mc1.21.6-neoforge.jar` |
+| 1.21.7 | `quantavolt-0.1.0+mc1.21.7-1.21.8-fabric.jar` | `quantavolt-0.1.0+mc1.21.7-1.21.8-neoforge.jar` |
+| 1.21.8 | `quantavolt-0.1.0+mc1.21.7-1.21.8-fabric.jar` | `quantavolt-0.1.0+mc1.21.7-1.21.8-neoforge.jar` |
+| 1.21.9 | `quantavolt-0.1.0+mc1.21.9-1.21.10-fabric.jar` | `quantavolt-0.1.0+mc1.21.9-neoforge.jar` |
+| 1.21.10 | `quantavolt-0.1.0+mc1.21.9-1.21.10-fabric.jar` | `quantavolt-0.1.0+mc1.21.10-neoforge.jar` |
+| 1.21.11 | `quantavolt-0.1.0+mc1.21.11-fabric.jar` | `quantavolt-0.1.0+mc1.21.11-neoforge.jar` |
+| 26.1 | `quantavolt-0.1.0+mc26.1-26.1.1-fabric.jar` | `quantavolt-0.1.0+mc26.1-26.1.1-neoforge.jar` |
+| 26.1.1 | `quantavolt-0.1.0+mc26.1-26.1.1-fabric.jar` | `quantavolt-0.1.0+mc26.1-26.1.1-neoforge.jar` |
+| 26.1.2 | `quantavolt-0.1.0+mc26.1.2-fabric.jar` | `quantavolt-0.1.0+mc26.1.2-neoforge.jar` |
+| 26.2 | `quantavolt-0.1.0+mc26.2-fabric.jar` | `quantavolt-0.1.0+mc26.2-neoforge.jar` |
+| 26.3 | `quantavolt-0.1.0+mc26.3-fabric.jar` | `quantavolt-0.1.0+mc26.3-neoforge.jar` |
 
 "Tested" means, for every listed version: client and dedicated server started, all automated game
 tests passed, and the integrations were started with the real mods. The exact loader versions are
