@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest a new feature or a change to an existing one.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Please describe the problem you want to solve, not only the solution. That makes it easier to find a design that fits QuantaVolt.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: "In my base I often want to ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could it work in game?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Can it already be done some other way?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Gameplay
+        - New plant or machine
+        - Balance (numbers, costs, outputs)
+        - GUI / screens
+        - Integrations with other mods
+        - Server / performance
+        - Other

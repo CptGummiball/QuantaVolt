@@ -1,0 +1,154 @@
+name: Bug report
+description: Something in QuantaVolt does not work as described, crashes or loses resources.
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please check the [FAQ](https://github.com/CptGummiball/QuantaVolt/wiki/FAQ) first. If a plant does not form, its controller screen names the wrong block and its position, and the build pages in the [wiki](https://github.com/CptGummiball/QuantaVolt/wiki) show a working example layer by layer.
+
+        If the problem only happens together with another mod's machine, please use the **Mod compatibility** template instead.
+
+  - type: dropdown
+    id: minecraft
+    attributes:
+      label: Minecraft version
+      description: The QuantaVolt jar name contains the Minecraft version (or range) it is made for.
+      options:
+        - "1.21.1"
+        - "1.21.2"
+        - "1.21.3"
+        - "1.21.4"
+        - "1.21.5"
+        - "1.21.6"
+        - "1.21.7"
+        - "1.21.8"
+        - "1.21.9"
+        - "1.21.10"
+        - "1.21.11"
+        - "26.1"
+        - "26.1.1"
+        - "26.1.2"
+        - "26.2"
+        - "26.3"
+        - "other (write it below)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Loader
+      options:
+        - Fabric
+        - NeoForge
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: QuantaVolt jar and loader version
+      description: The exact file name of the QuantaVolt jar, and the Fabric Loader + Fabric API or NeoForge version.
+      placeholder: "quantavolt-0.1.0+mc26.2-fabric.jar, Fabric Loader 0.19.5, Fabric API 0.161.0+26.2"
+    validations:
+      required: true
+
+  - type: input
+    id: pipster
+    attributes:
+      label: Pipster version
+      description: QuantaVolt needs Pipster. The exact file name of the Pipster jar.
+      placeholder: "pipster-1.0.0+mc26.2-fabric.jar"
+    validations:
+      required: true
+
+  - type: input
+    id: plant
+    attributes:
+      label: Plant, machine or item
+      description: Which QuantaVolt plant, machine or item is affected? For a multiblock, its size helps (e.g. 7x5x7).
+      placeholder: "Steam Turbine 5x5x7"
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where does it happen?
+      options:
+        - Singleplayer
+        - Dedicated server (multiplayer)
+        - LAN / integrated server
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Gameplay
+        - Multiblock does not form / forms wrongly
+        - Incident / explosion / damage
+        - Energy, fluids or gases are not moved
+        - GUI / screens
+        - Rendering / models / textures
+        - Recipes
+        - Saving / loading / world upgrade
+        - Performance / server lag
+        - Integrations with other mods (Jade, JEI, CC: Tweaked, cables and pipes)
+        - Crash
+        - Other
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe what you saw. If resources were lost or duplicated, say which and how many.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smaller the setup, the faster it can be fixed. Screenshots help a lot.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: The full mod list, or at least the mods involved (with versions). Write "none" for a clean install.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and crash report
+      description: |
+        Please upload `logs/latest.log` and, if there was a crash, the file from `crash-reports/` (drag and drop into this field, or link a paste site). Server problems: the server log.
+      placeholder: Drop files here or paste a link.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I use the QuantaVolt jar whose name contains my Minecraft version, for my loader.
+          required: true
+        - label: I searched the existing issues for this problem.
+          required: true
