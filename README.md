@@ -2,7 +2,7 @@
   <img src="images/icon.png" width="96" alt="QuantaVolt icon">
 </p>
 
-<h1 align="center">QuantaVolt</h1>
+<h1 align="center">QuantaVolt <sup>BETA</sup></h1>
 
 <p align="center">
   Industrial power generation: from a small dynamo to turbines, fission, fusion, an artificial star and black holes.<br>
@@ -21,6 +21,8 @@
   <a href="api/README.md">API for mod developers</a> ·
   <a href="#license">License</a>
 </p>
+
+> **BETA** – QuantaVolt 0.1.0 is a public beta. Every plant, recipe and screen was tested on every supported Minecraft version and loader, but some bugs only show up in long play sessions (large bases, plants running for days, many save and load cycles). Please report anything odd on the [issue tracker](../../issues) with your Minecraft version, loader and log, and keep backups of worlds you care about. Fixes follow once the first feedback is in.
 
 This repository holds the documentation, the [wiki](../../wiki), the
 [issue tracker](../../issues) and the [API for mod developers](api/README.md). The mod itself
@@ -69,6 +71,8 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
   and 26.3); ores also generate in the biomes of Terralith and Biomes O' Plenty (checked on 1.21.1 and 26.3).
 
 ## Version status
+
+All files are **0.1.0 beta**.
 
 | Minecraft | Fabric jar | NeoForge jar |
 |---|---|---|
