@@ -22,7 +22,7 @@
   <a href="#license">License</a>
 </p>
 
-> **BETA** – QuantaVolt 0.1.0 is a public beta. Every plant, recipe and screen was tested on every supported Minecraft version and loader, but some bugs only show up in long play sessions (large bases, plants running for days, many save and load cycles). Please report anything odd on the [issue tracker](../../issues) with your Minecraft version, loader and log, and keep backups of worlds you care about. Fixes follow once the first feedback is in.
+> **BETA** – QuantaVolt 0.2.0 is still a public beta. Every plant, recipe and screen was tested on every supported Minecraft version and loader, and worlds from 0.1.0 load unchanged, but some bugs only show up in long play sessions (large bases, plants running for days, many save and load cycles). Please report anything odd on the [issue tracker](../../issues) with your Minecraft version, loader and log, and keep backups of worlds you care about. Fixes follow once the first feedback is in.
 
 This repository holds the documentation, the [wiki](../../wiki), the
 [issue tracker](../../issues) and the [API for mod developers](api/README.md). The mod itself
@@ -37,6 +37,16 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
   <img src="images/gallery/dimensional_store.jpg" width="49%" alt="Dimensional store with its floating core">
 </p>
 
+## New in 0.2.0 – the gas update
+
+* **Natural gas:** find fields with the Gas Prospector and tap them with a Gas Derrick (3 × 3, 6–12 high). Fields are small or large, follow from the world seed and run dry for good; natural gas is worth twice as much as syngas in turbines, engines and boilers.
+* **Build Projector:** pick a plant's size within everything it allows, see the material list and project the plan into the world for everyone – small floating blocks where parts are missing, red frames where something is in the way. Works for all 22 multiblocks.
+* **Oxyfuel, Gas Flare, ash recipes:** oxygen boosts gas burners by 25 %, the flare burns surplus gas, ash becomes concrete and bone meal.
+* **Advancements** from the first dynamo to the dimensional store.
+* **Fixes:** capacitor bank and solar thermal ports on the controller's side work; connected textures close their inner corners; parts placed by commands join at once.
+
+Full list: [changelog](CHANGELOG.md).
+
 ## What QuantaVolt is
 
 * **A whole power industry to build:** Basic Dynamo and Stirling generator, Industrial Boiler and Steam Turbine,
@@ -45,7 +55,7 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
   a micro black hole plant and a Hawking radiation reactor.
 * **Storage at every scale:** Energy Cell, Capacitor Bank, Battery Hall, Molten-Salt Store, Gravity Store, SMES, a
   Dimensional Store, and a Large Gas Tank up to 32x32x32.
-* **21 multiblock plants with free sizes:** you choose the size within limits, the controller screen tells you exactly
+* **22 multiblock plants with free sizes:** you choose the size within limits, the controller screen tells you exactly
   which block is wrong and where, and every plant has a step-by-step build guide with in-game pictures of every layer in
   the [wiki](../../wiki).
 * **Plants that behave like plants:** rotors with inertia, temperatures, pressures and cooling, warnings before
@@ -72,26 +82,26 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
 
 ## Version status
 
-All files are **0.1.0 beta**.
+All files are **0.2.0 beta**.
 
 | Minecraft | Fabric jar | NeoForge jar |
 |---|---|---|
-| 1.21.1 | `quantavolt-0.1.0+mc1.21.1-fabric.jar` | `quantavolt-0.1.0+mc1.21.1-neoforge.jar` |
-| 1.21.2 | `quantavolt-0.1.0+mc1.21.2-1.21.3-fabric.jar` | `quantavolt-0.1.0+mc1.21.2-1.21.3-neoforge.jar` |
-| 1.21.3 | `quantavolt-0.1.0+mc1.21.2-1.21.3-fabric.jar` | `quantavolt-0.1.0+mc1.21.2-1.21.3-neoforge.jar` |
-| 1.21.4 | `quantavolt-0.1.0+mc1.21.4-fabric.jar` | `quantavolt-0.1.0+mc1.21.4-neoforge.jar` |
-| 1.21.5 | `quantavolt-0.1.0+mc1.21.5-fabric.jar` | `quantavolt-0.1.0+mc1.21.5-neoforge.jar` |
-| 1.21.6 | `quantavolt-0.1.0+mc1.21.6-fabric.jar` | `quantavolt-0.1.0+mc1.21.6-neoforge.jar` |
-| 1.21.7 | `quantavolt-0.1.0+mc1.21.7-1.21.8-fabric.jar` | `quantavolt-0.1.0+mc1.21.7-1.21.8-neoforge.jar` |
-| 1.21.8 | `quantavolt-0.1.0+mc1.21.7-1.21.8-fabric.jar` | `quantavolt-0.1.0+mc1.21.7-1.21.8-neoforge.jar` |
-| 1.21.9 | `quantavolt-0.1.0+mc1.21.9-1.21.10-fabric.jar` | `quantavolt-0.1.0+mc1.21.9-neoforge.jar` |
-| 1.21.10 | `quantavolt-0.1.0+mc1.21.9-1.21.10-fabric.jar` | `quantavolt-0.1.0+mc1.21.10-neoforge.jar` |
-| 1.21.11 | `quantavolt-0.1.0+mc1.21.11-fabric.jar` | `quantavolt-0.1.0+mc1.21.11-neoforge.jar` |
-| 26.1 | `quantavolt-0.1.0+mc26.1-26.1.1-fabric.jar` | `quantavolt-0.1.0+mc26.1-26.1.1-neoforge.jar` |
-| 26.1.1 | `quantavolt-0.1.0+mc26.1-26.1.1-fabric.jar` | `quantavolt-0.1.0+mc26.1-26.1.1-neoforge.jar` |
-| 26.1.2 | `quantavolt-0.1.0+mc26.1.2-fabric.jar` | `quantavolt-0.1.0+mc26.1.2-neoforge.jar` |
-| 26.2 | `quantavolt-0.1.0+mc26.2-fabric.jar` | `quantavolt-0.1.0+mc26.2-neoforge.jar` |
-| 26.3 | `quantavolt-0.1.0+mc26.3-fabric.jar` | `quantavolt-0.1.0+mc26.3-neoforge.jar` |
+| 1.21.1 | `quantavolt-0.2.0+mc1.21.1-fabric.jar` | `quantavolt-0.2.0+mc1.21.1-neoforge.jar` |
+| 1.21.2 | `quantavolt-0.2.0+mc1.21.2-1.21.3-fabric.jar` | `quantavolt-0.2.0+mc1.21.2-1.21.3-neoforge.jar` |
+| 1.21.3 | `quantavolt-0.2.0+mc1.21.2-1.21.3-fabric.jar` | `quantavolt-0.2.0+mc1.21.2-1.21.3-neoforge.jar` |
+| 1.21.4 | `quantavolt-0.2.0+mc1.21.4-fabric.jar` | `quantavolt-0.2.0+mc1.21.4-neoforge.jar` |
+| 1.21.5 | `quantavolt-0.2.0+mc1.21.5-fabric.jar` | `quantavolt-0.2.0+mc1.21.5-neoforge.jar` |
+| 1.21.6 | `quantavolt-0.2.0+mc1.21.6-fabric.jar` | `quantavolt-0.2.0+mc1.21.6-neoforge.jar` |
+| 1.21.7 | `quantavolt-0.2.0+mc1.21.7-1.21.8-fabric.jar` | `quantavolt-0.2.0+mc1.21.7-1.21.8-neoforge.jar` |
+| 1.21.8 | `quantavolt-0.2.0+mc1.21.7-1.21.8-fabric.jar` | `quantavolt-0.2.0+mc1.21.7-1.21.8-neoforge.jar` |
+| 1.21.9 | `quantavolt-0.2.0+mc1.21.9-1.21.10-fabric.jar` | `quantavolt-0.2.0+mc1.21.9-neoforge.jar` |
+| 1.21.10 | `quantavolt-0.2.0+mc1.21.9-1.21.10-fabric.jar` | `quantavolt-0.2.0+mc1.21.10-neoforge.jar` |
+| 1.21.11 | `quantavolt-0.2.0+mc1.21.11-fabric.jar` | `quantavolt-0.2.0+mc1.21.11-neoforge.jar` |
+| 26.1 | `quantavolt-0.2.0+mc26.1-26.1.1-fabric.jar` | `quantavolt-0.2.0+mc26.1-26.1.1-neoforge.jar` |
+| 26.1.1 | `quantavolt-0.2.0+mc26.1-26.1.1-fabric.jar` | `quantavolt-0.2.0+mc26.1-26.1.1-neoforge.jar` |
+| 26.1.2 | `quantavolt-0.2.0+mc26.1.2-fabric.jar` | `quantavolt-0.2.0+mc26.1.2-neoforge.jar` |
+| 26.2 | `quantavolt-0.2.0+mc26.2-fabric.jar` | `quantavolt-0.2.0+mc26.2-neoforge.jar` |
+| 26.3 | `quantavolt-0.2.0+mc26.3-fabric.jar` | `quantavolt-0.2.0+mc26.3-neoforge.jar` |
 
 "Tested" means, for every listed version: client and dedicated server started, all automated game
 tests passed, and the integrations were started with the real mods. The exact loader versions are
@@ -99,9 +109,9 @@ listed in the wiki under [Supported Versions](../../wiki/Supported-Versions).
 
 ## Performance
 
-Measured on one laptop (Intel Core i7-13700H): a dedicated server with 54 running plants and 168 single machines cost
-QuantaVolt 0.4–1.4 ms per tick in the median and at most 2.2 ms in the 99th percentile (Minecraft 1.21.1 and 26.3,
-both loaders), out of 50 ms per tick. That is a measurement on that computer, not a promise for every server. Details:
+Measured on one laptop (Intel Core i7-13700H): a dedicated server with 56 running plants and 170 single machines cost
+QuantaVolt 0.3–0.8 ms per tick in the median and at most 1.9 ms in the 99th percentile (QuantaVolt 0.2.0, Minecraft
+1.21.1 and 26.3, both loaders), out of 50 ms per tick. That is a measurement on that computer, not a promise for every server. Details:
 [Performance](../../wiki/Performance).
 
 ## Downloads
