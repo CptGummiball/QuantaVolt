@@ -1,0 +1,2802 @@
+[
+ {
+  "name": "industrial_boiler",
+  "structure": "quantavolt:industrial_boiler",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   5,
+   5
+  ],
+  "controller": "quantavolt:boiler_controller",
+  "final": "quantavolt-guide-industrial_boiler-final.png",
+  "legend": {
+   "A": "quantavolt:boiler_casing",
+   "B": "quantavolt:boiler_glass",
+   "C": "quantavolt:combustion_chamber",
+   "D": "quantavolt:boiler_controller",
+   "E": "quantavolt:heat_exchanger_tube",
+   "F": "quantavolt:item_input_port",
+   "G": "quantavolt:fluid_input_port",
+   "H": "quantavolt:fluid_output_port"
+  },
+  "totals": {
+   "quantavolt:boiler_casing": 86,
+   "quantavolt:boiler_controller": 1,
+   "quantavolt:boiler_glass": 8,
+   "quantavolt:combustion_chamber": 9,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:heat_exchanger_tube": 18,
+   "quantavolt:item_input_port": 1
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-industrial_boiler-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:boiler_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-industrial_boiler-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:boiler_casing": 13,
+     "quantavolt:boiler_glass": 3,
+     "quantavolt:combustion_chamber": 9
+    },
+    "grid": [
+     "AAAAA",
+     "ACCCA",
+     "ACCCA",
+     "ACCCA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-industrial_boiler-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:boiler_casing": 11,
+     "quantavolt:boiler_controller": 1,
+     "quantavolt:boiler_glass": 2,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:heat_exchanger_tube": 9,
+     "quantavolt:item_input_port": 1
+    },
+    "grid": [
+     "AAAAA",
+     "AEEEA",
+     "FEEEG",
+     "AEEEA",
+     "ABDBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-industrial_boiler-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:boiler_casing": 13,
+     "quantavolt:boiler_glass": 3,
+     "quantavolt:heat_exchanger_tube": 9
+    },
+    "grid": [
+     "AAAAA",
+     "AEEEA",
+     "AEEEA",
+     "AEEEA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-industrial_boiler-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:boiler_casing": 24,
+     "quantavolt:fluid_output_port": 1
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAHAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "steam_turbine",
+  "structure": "quantavolt:steam_turbine",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   5,
+   5
+  ],
+  "controller": "quantavolt:turbine_controller",
+  "final": "quantavolt-guide-steam_turbine-final.png",
+  "legend": {
+   "A": "quantavolt:turbine_casing",
+   "B": "quantavolt:turbine_glass",
+   "C": "quantavolt:turbine_controller",
+   "D": "quantavolt:rotor_blade",
+   "E": "quantavolt:rotor_shaft",
+   "F": "quantavolt:fluid_input_port",
+   "G": "quantavolt:fluid_output_port",
+   "H": "quantavolt:generator_coil",
+   "I": "quantavolt:energy_output_port"
+  },
+  "totals": {
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:generator_coil": 2,
+   "quantavolt:rotor_blade": 8,
+   "quantavolt:rotor_shaft": 3,
+   "quantavolt:turbine_casing": 86,
+   "quantavolt:turbine_controller": 1,
+   "quantavolt:turbine_glass": 8
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-steam_turbine-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:turbine_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-steam_turbine-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:rotor_blade": 2,
+     "quantavolt:turbine_casing": 13,
+     "quantavolt:turbine_controller": 1,
+     "quantavolt:turbine_glass": 2
+    },
+    "grid": [
+     "AAAAA",
+     "A...A",
+     "A.D.A",
+     "A.D.A",
+     "ABCBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-steam_turbine-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:generator_coil": 2,
+     "quantavolt:rotor_blade": 4,
+     "quantavolt:rotor_shaft": 3,
+     "quantavolt:turbine_casing": 11,
+     "quantavolt:turbine_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "AHEHA",
+     "FDEDG",
+     "ADEDA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-steam_turbine-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:rotor_blade": 2,
+     "quantavolt:turbine_casing": 13,
+     "quantavolt:turbine_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "A...A",
+     "A.D.A",
+     "A.D.A",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-steam_turbine-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:turbine_casing": 24
+    },
+    "grid": [
+     "AAAAA",
+     "AAIAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "gasifier",
+  "structure": "quantavolt:gasifier",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   3,
+   4,
+   3
+  ],
+  "controller": "quantavolt:gasifier_controller",
+  "final": "quantavolt-guide-gasifier-final.png",
+  "legend": {
+   "A": "quantavolt:gasifier_casing",
+   "B": "quantavolt:gasifier_controller",
+   "C": "quantavolt:item_input_port",
+   "D": "quantavolt:gasifier_chamber",
+   "E": "quantavolt:fluid_input_port",
+   "F": "quantavolt:item_output_port",
+   "G": "quantavolt:boiler_glass",
+   "H": "quantavolt:gas_output_port"
+  },
+  "totals": {
+   "quantavolt:boiler_glass": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:gas_output_port": 1,
+   "quantavolt:gasifier_casing": 28,
+   "quantavolt:gasifier_chamber": 2,
+   "quantavolt:gasifier_controller": 1,
+   "quantavolt:item_input_port": 1,
+   "quantavolt:item_output_port": 1
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-gasifier-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:gasifier_casing": 9
+    },
+    "grid": [
+     "AAA",
+     "AAA",
+     "AAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-gasifier-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:gasifier_casing": 4,
+     "quantavolt:gasifier_chamber": 1,
+     "quantavolt:gasifier_controller": 1,
+     "quantavolt:item_input_port": 1,
+     "quantavolt:item_output_port": 1
+    },
+    "grid": [
+     "AFA",
+     "CDE",
+     "ABA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-gasifier-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:boiler_glass": 1,
+     "quantavolt:gasifier_casing": 7,
+     "quantavolt:gasifier_chamber": 1
+    },
+    "grid": [
+     "AAA",
+     "ADA",
+     "AGA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-gasifier-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:gas_output_port": 1,
+     "quantavolt:gasifier_casing": 8
+    },
+    "grid": [
+     "AAA",
+     "AHA",
+     "AAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "gas_turbine",
+  "structure": "quantavolt:gas_turbine",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   5,
+   7
+  ],
+  "controller": "quantavolt:gas_turbine_controller",
+  "final": "quantavolt-guide-gas_turbine-final.png",
+  "legend": {
+   "A": "quantavolt:gas_turbine_casing",
+   "B": "quantavolt:gas_turbine_controller",
+   "C": "quantavolt:turbine_glass",
+   "D": "quantavolt:compressor_blade",
+   "E": "quantavolt:combustor",
+   "F": "quantavolt:rotor_blade",
+   "G": "quantavolt:generator_coil",
+   "H": "quantavolt:rotor_shaft",
+   "I": "quantavolt:gas_input_port",
+   "J": "quantavolt:heat_port",
+   "K": "quantavolt:energy_output_port"
+  },
+  "totals": {
+   "quantavolt:combustor": 4,
+   "quantavolt:compressor_blade": 4,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:gas_input_port": 1,
+   "quantavolt:gas_turbine_casing": 111,
+   "quantavolt:gas_turbine_controller": 1,
+   "quantavolt:generator_coil": 4,
+   "quantavolt:heat_port": 1,
+   "quantavolt:rotor_blade": 8,
+   "quantavolt:rotor_shaft": 5,
+   "quantavolt:turbine_glass": 15
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-gas_turbine-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:gas_turbine_casing": 35
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-gas_turbine-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:combustor": 1,
+     "quantavolt:compressor_blade": 1,
+     "quantavolt:gas_turbine_casing": 14,
+     "quantavolt:gas_turbine_controller": 1,
+     "quantavolt:generator_coil": 1,
+     "quantavolt:rotor_blade": 2,
+     "quantavolt:turbine_glass": 5
+    },
+    "grid": [
+     "AAAAA",
+     "C.G.A",
+     "C.F.A",
+     "C.F.A",
+     "C.E.A",
+     "C.D.A",
+     "AABAA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-gas_turbine-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:combustor": 2,
+     "quantavolt:compressor_blade": 2,
+     "quantavolt:gas_input_port": 1,
+     "quantavolt:gas_turbine_casing": 13,
+     "quantavolt:generator_coil": 2,
+     "quantavolt:heat_port": 1,
+     "quantavolt:rotor_blade": 4,
+     "quantavolt:rotor_shaft": 5,
+     "quantavolt:turbine_glass": 5
+    },
+    "grid": [
+     "AAAAA",
+     "CGHGA",
+     "CFHFJ",
+     "CFHFA",
+     "CEHEI",
+     "CDHDA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-gas_turbine-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:combustor": 1,
+     "quantavolt:compressor_blade": 1,
+     "quantavolt:gas_turbine_casing": 15,
+     "quantavolt:generator_coil": 1,
+     "quantavolt:rotor_blade": 2,
+     "quantavolt:turbine_glass": 5
+    },
+    "grid": [
+     "AAAAA",
+     "C.G.A",
+     "C.F.A",
+     "C.F.A",
+     "C.E.A",
+     "C.D.A",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-gas_turbine-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:gas_turbine_casing": 34
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAKAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "centrifuge_cascade",
+  "structure": "quantavolt:centrifuge_cascade",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   4,
+   4
+  ],
+  "controller": "quantavolt:centrifuge_controller",
+  "final": "quantavolt-guide-centrifuge_cascade-final.png",
+  "legend": {
+   "A": "quantavolt:centrifuge_casing",
+   "B": "quantavolt:turbine_glass",
+   "C": "quantavolt:centrifuge_controller",
+   "D": "quantavolt:item_input_port",
+   "E": "quantavolt:centrifuge",
+   "F": "quantavolt:item_output_port",
+   "G": "quantavolt:energy_input_port"
+  },
+  "totals": {
+   "quantavolt:centrifuge": 12,
+   "quantavolt:centrifuge_casing": 59,
+   "quantavolt:centrifuge_controller": 1,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:item_input_port": 1,
+   "quantavolt:item_output_port": 1,
+   "quantavolt:turbine_glass": 5
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-centrifuge_cascade-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:centrifuge_casing": 20
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-centrifuge_cascade-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:centrifuge": 6,
+     "quantavolt:centrifuge_casing": 9,
+     "quantavolt:centrifuge_controller": 1,
+     "quantavolt:item_input_port": 1,
+     "quantavolt:item_output_port": 1,
+     "quantavolt:turbine_glass": 2
+    },
+    "grid": [
+     "AAAAA",
+     "AEEEA",
+     "DEEEF",
+     "ABCBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-centrifuge_cascade-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:centrifuge": 6,
+     "quantavolt:centrifuge_casing": 10,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:turbine_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "GEEEA",
+     "AEEEA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-centrifuge_cascade-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:centrifuge_casing": 20
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "fission_reactor",
+  "structure": "quantavolt:fission_reactor",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   5,
+   5
+  ],
+  "controller": "quantavolt:fission_controller",
+  "final": "quantavolt-guide-fission_reactor-final.png",
+  "legend": {
+   "A": "quantavolt:reactor_casing",
+   "B": "quantavolt:reactor_glass",
+   "C": "quantavolt:control_rod",
+   "D": "quantavolt:coolant_channel",
+   "E": "quantavolt:item_input_port",
+   "F": "quantavolt:fuel_assembly",
+   "G": "quantavolt:moderator",
+   "H": "quantavolt:item_output_port",
+   "I": "quantavolt:fission_controller",
+   "J": "quantavolt:fluid_input_port",
+   "K": "quantavolt:fluid_output_port",
+   "L": "quantavolt:reactor_instrumentation"
+  },
+  "totals": {
+   "quantavolt:control_rod": 6,
+   "quantavolt:coolant_channel": 9,
+   "quantavolt:fission_controller": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:fuel_assembly": 9,
+   "quantavolt:item_input_port": 1,
+   "quantavolt:item_output_port": 1,
+   "quantavolt:moderator": 3,
+   "quantavolt:reactor_casing": 84,
+   "quantavolt:reactor_glass": 8,
+   "quantavolt:reactor_instrumentation": 1
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-fission_reactor-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:reactor_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-fission_reactor-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:control_rod": 2,
+     "quantavolt:coolant_channel": 3,
+     "quantavolt:fuel_assembly": 3,
+     "quantavolt:item_input_port": 1,
+     "quantavolt:item_output_port": 1,
+     "quantavolt:moderator": 1,
+     "quantavolt:reactor_casing": 11,
+     "quantavolt:reactor_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "ADFDA",
+     "EFGFH",
+     "ACDCA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-fission_reactor-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:control_rod": 2,
+     "quantavolt:coolant_channel": 3,
+     "quantavolt:fission_controller": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:fuel_assembly": 3,
+     "quantavolt:moderator": 1,
+     "quantavolt:reactor_casing": 11,
+     "quantavolt:reactor_glass": 2
+    },
+    "grid": [
+     "AAAAA",
+     "ADFDA",
+     "JFGFK",
+     "ACDCA",
+     "ABIBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-fission_reactor-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:control_rod": 2,
+     "quantavolt:coolant_channel": 3,
+     "quantavolt:fuel_assembly": 3,
+     "quantavolt:moderator": 1,
+     "quantavolt:reactor_casing": 13,
+     "quantavolt:reactor_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "ADFDA",
+     "AFGFA",
+     "ACDCA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-fission_reactor-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:reactor_casing": 24,
+     "quantavolt:reactor_instrumentation": 1
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AALAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "tokamak",
+  "structure": "quantavolt:tokamak",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   11,
+   5,
+   11
+  ],
+  "controller": "quantavolt:fusion_controller",
+  "final": "quantavolt-guide-tokamak-final.png",
+  "legend": {
+   "A": "quantavolt:tokamak_casing",
+   "B": "quantavolt:reactor_glass",
+   "C": "quantavolt:fusion_controller",
+   "D": "quantavolt:coolant_channel",
+   "E": "quantavolt:tokamak_viewport",
+   "F": "quantavolt:divertor",
+   "G": "quantavolt:vacuum_chamber",
+   "H": "quantavolt:toroidal_field_coil",
+   "I": "quantavolt:fluid_output_port",
+   "J": "quantavolt:breeding_blanket",
+   "K": "quantavolt:poloidal_field_coil",
+   "L": "quantavolt:plasma_injector",
+   "M": "quantavolt:energy_input_port",
+   "N": "quantavolt:fluid_input_port",
+   "O": "quantavolt:gas_input_port",
+   "P": "quantavolt:gas_output_port",
+   "Q": "quantavolt:heat_port",
+   "R": "quantavolt:fusion_diagnostics"
+  },
+  "totals": {
+   "quantavolt:breeding_blanket": 18,
+   "quantavolt:coolant_channel": 21,
+   "quantavolt:divertor": 12,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:fusion_controller": 1,
+   "quantavolt:fusion_diagnostics": 1,
+   "quantavolt:gas_input_port": 1,
+   "quantavolt:gas_output_port": 1,
+   "quantavolt:heat_port": 1,
+   "quantavolt:plasma_injector": 6,
+   "quantavolt:poloidal_field_coil": 3,
+   "quantavolt:reactor_glass": 26,
+   "quantavolt:tokamak_casing": 328,
+   "quantavolt:tokamak_viewport": 21,
+   "quantavolt:toroidal_field_coil": 18,
+   "quantavolt:vacuum_chamber": 144
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-tokamak-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:tokamak_casing": 121
+    },
+    "grid": [
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-tokamak-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:breeding_blanket": 6,
+     "quantavolt:coolant_channel": 7,
+     "quantavolt:divertor": 6,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:fusion_controller": 1,
+     "quantavolt:poloidal_field_coil": 1,
+     "quantavolt:reactor_glass": 8,
+     "quantavolt:tokamak_casing": 30,
+     "quantavolt:tokamak_viewport": 7,
+     "quantavolt:toroidal_field_coil": 6,
+     "quantavolt:vacuum_chamber": 48
+    },
+    "grid": [
+     "AAAAAAAAAAA",
+     "ADFHJDFHJDA",
+     "AJGGGGGGGJA",
+     "AHGGGGGGGHA",
+     "AFGGGGGGGFA",
+     "ADGGGKGGGDA",
+     "AJGGGGGGGJA",
+     "AHGGGGGGGHI",
+     "AFGGGGGGGFA",
+     "ADEEEEEEEDA",
+     "ABBBBCBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-tokamak-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:breeding_blanket": 6,
+     "quantavolt:coolant_channel": 7,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:gas_input_port": 1,
+     "quantavolt:gas_output_port": 1,
+     "quantavolt:plasma_injector": 6,
+     "quantavolt:poloidal_field_coil": 1,
+     "quantavolt:reactor_glass": 9,
+     "quantavolt:tokamak_casing": 27,
+     "quantavolt:tokamak_viewport": 7,
+     "quantavolt:toroidal_field_coil": 6,
+     "quantavolt:vacuum_chamber": 48
+    },
+    "grid": [
+     "AAAAAAAAAAA",
+     "ADLHJDLHJDA",
+     "AJGGGGGGGJA",
+     "OHGGGGGGGHP",
+     "ALGGGGGGGLA",
+     "ADGGGKGGGDA",
+     "AJGGGGGGGJA",
+     "MHGGGGGGGHN",
+     "ALGGGGGGGLA",
+     "ADEEEEEEEDA",
+     "ABBBBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-tokamak-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:breeding_blanket": 6,
+     "quantavolt:coolant_channel": 7,
+     "quantavolt:divertor": 6,
+     "quantavolt:heat_port": 1,
+     "quantavolt:poloidal_field_coil": 1,
+     "quantavolt:reactor_glass": 9,
+     "quantavolt:tokamak_casing": 30,
+     "quantavolt:tokamak_viewport": 7,
+     "quantavolt:toroidal_field_coil": 6,
+     "quantavolt:vacuum_chamber": 48
+    },
+    "grid": [
+     "AAAAAAAAAAA",
+     "ADFHJDFHJDA",
+     "AJGGGGGGGJA",
+     "AHGGGGGGGHA",
+     "AFGGGGGGGFA",
+     "ADGGGKGGGDQ",
+     "AJGGGGGGGJA",
+     "AHGGGGGGGHA",
+     "AFGGGGGGGFA",
+     "ADEEEEEEEDA",
+     "ABBBBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-tokamak-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:fusion_diagnostics": 1,
+     "quantavolt:tokamak_casing": 120
+    },
+    "grid": [
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAARAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA",
+     "AAAAAAAAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "little_star",
+  "structure": "quantavolt:little_star",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   9,
+   9,
+   9
+  ],
+  "controller": "quantavolt:little_star_controller",
+  "final": "quantavolt-guide-little_star-final.png",
+  "legend": {
+   "A": "quantavolt:stellar_frame",
+   "B": "quantavolt:stellar_glass",
+   "C": "quantavolt:containment_rod_drive",
+   "D": "quantavolt:containment_rod",
+   "E": "quantavolt:little_star_controller",
+   "F": "quantavolt:energy_input_port",
+   "G": "quantavolt:energy_output_port",
+   "H": "quantavolt:gas_input_port",
+   "I": "quantavolt:gas_output_port",
+   "J": "quantavolt:fluid_input_port",
+   "K": "quantavolt:fluid_output_port"
+  },
+  "totals": {
+   "quantavolt:containment_rod": 12,
+   "quantavolt:containment_rod_drive": 6,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:gas_input_port": 1,
+   "quantavolt:gas_output_port": 1,
+   "quantavolt:little_star_controller": 1,
+   "quantavolt:stellar_frame": 92,
+   "quantavolt:stellar_glass": 281
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-little_star-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:containment_rod_drive": 1,
+     "quantavolt:stellar_frame": 32,
+     "quantavolt:stellar_glass": 48
+    },
+    "grid": [
+     "AAAAAAAAA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBCBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "AAAAAAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-little_star-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:containment_rod": 1,
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 28
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B...D...B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "ABBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-little_star-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:containment_rod": 1,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:gas_input_port": 1,
+     "quantavolt:gas_output_port": 1,
+     "quantavolt:little_star_controller": 1,
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 23
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "B.......B",
+     "H.......I",
+     "B.......B",
+     "B...D...B",
+     "B.......B",
+     "F.......G",
+     "B.......B",
+     "ABBBEBBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-little_star-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 28
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "ABBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-little_star-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:containment_rod": 8,
+     "quantavolt:containment_rod_drive": 4,
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 24
+    },
+    "grid": [
+     "ABBBCBBBA",
+     "B...D...B",
+     "B...D...B",
+     "B.......B",
+     "CDD...DDC",
+     "B.......B",
+     "B...D...B",
+     "B...D...B",
+     "ABBBCBBBA"
+    ]
+   },
+   {
+    "label": "Layer 6",
+    "shot": "quantavolt-guide-little_star-06.png",
+    "from": 6,
+    "to": 6,
+    "blocks": {
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 28
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "ABBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 7",
+    "shot": "quantavolt-guide-little_star-07.png",
+    "from": 7,
+    "to": 7,
+    "blocks": {
+     "quantavolt:containment_rod": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 26
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B...D...B",
+     "B.......B",
+     "J.......K",
+     "B.......B",
+     "ABBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 8",
+    "shot": "quantavolt-guide-little_star-08.png",
+    "from": 8,
+    "to": 8,
+    "blocks": {
+     "quantavolt:containment_rod": 1,
+     "quantavolt:stellar_frame": 4,
+     "quantavolt:stellar_glass": 28
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "B...D...B",
+     "B.......B",
+     "B.......B",
+     "B.......B",
+     "ABBBBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 9",
+    "shot": "quantavolt-guide-little_star-09.png",
+    "from": 9,
+    "to": 9,
+    "blocks": {
+     "quantavolt:containment_rod_drive": 1,
+     "quantavolt:stellar_frame": 32,
+     "quantavolt:stellar_glass": 48
+    },
+    "grid": [
+     "AAAAAAAAA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBCBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "AAAAAAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "battery_hall",
+  "structure": "quantavolt:battery_hall",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   4,
+   4
+  ],
+  "controller": "quantavolt:battery_hall_controller",
+  "final": "quantavolt-guide-battery_hall-final.png",
+  "legend": {
+   "A": "quantavolt:battery_casing",
+   "B": "quantavolt:turbine_glass",
+   "C": "quantavolt:battery_hall_controller",
+   "D": "quantavolt:energy_input_port",
+   "E": "quantavolt:battery_cell",
+   "F": "quantavolt:battery_inverter",
+   "G": "quantavolt:energy_output_port",
+   "H": "quantavolt:battery_cooler",
+   "I": "quantavolt:fluid_input_port",
+   "J": "quantavolt:fluid_output_port"
+  },
+  "totals": {
+   "quantavolt:battery_casing": 58,
+   "quantavolt:battery_cell": 8,
+   "quantavolt:battery_cooler": 2,
+   "quantavolt:battery_hall_controller": 1,
+   "quantavolt:battery_inverter": 2,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:turbine_glass": 5
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-battery_hall-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:battery_casing": 20
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-battery_hall-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:battery_casing": 9,
+     "quantavolt:battery_cell": 4,
+     "quantavolt:battery_cooler": 1,
+     "quantavolt:battery_hall_controller": 1,
+     "quantavolt:battery_inverter": 1,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:turbine_glass": 2
+    },
+    "grid": [
+     "AAAAA",
+     "AEHEA",
+     "DEFEG",
+     "ABCBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-battery_hall-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:battery_casing": 9,
+     "quantavolt:battery_cell": 4,
+     "quantavolt:battery_cooler": 1,
+     "quantavolt:battery_inverter": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:turbine_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "IEHEJ",
+     "AEFEA",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-battery_hall-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:battery_casing": 20
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "molten_salt_store",
+  "structure": "quantavolt:molten_salt_store",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   4,
+   4,
+   4
+  ],
+  "controller": "quantavolt:molten_salt_controller",
+  "final": "quantavolt-guide-molten_salt_store-final.png",
+  "legend": {
+   "A": "quantavolt:salt_tank_casing",
+   "B": "quantavolt:molten_salt_controller",
+   "C": "quantavolt:boiler_glass",
+   "D": "quantavolt:thermal_concrete",
+   "E": "quantavolt:heat_port",
+   "F": "quantavolt:heat_exchanger_tube",
+   "G": "quantavolt:thermal_salt"
+  },
+  "totals": {
+   "quantavolt:boiler_glass": 3,
+   "quantavolt:heat_exchanger_tube": 1,
+   "quantavolt:heat_port": 2,
+   "quantavolt:molten_salt_controller": 1,
+   "quantavolt:salt_tank_casing": 50,
+   "quantavolt:thermal_concrete": 4,
+   "quantavolt:thermal_salt": 3
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-molten_salt_store-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:salt_tank_casing": 16
+    },
+    "grid": [
+     "AAAA",
+     "AAAA",
+     "AAAA",
+     "AAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-molten_salt_store-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:boiler_glass": 1,
+     "quantavolt:heat_exchanger_tube": 1,
+     "quantavolt:heat_port": 2,
+     "quantavolt:molten_salt_controller": 1,
+     "quantavolt:salt_tank_casing": 8,
+     "quantavolt:thermal_concrete": 2,
+     "quantavolt:thermal_salt": 1
+    },
+    "grid": [
+     "AAAA",
+     "EFGE",
+     "ADDA",
+     "ABCA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-molten_salt_store-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:boiler_glass": 2,
+     "quantavolt:salt_tank_casing": 10,
+     "quantavolt:thermal_concrete": 2,
+     "quantavolt:thermal_salt": 2
+    },
+    "grid": [
+     "AAAA",
+     "AGGA",
+     "ADDA",
+     "ACCA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-molten_salt_store-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:salt_tank_casing": 16
+    },
+    "grid": [
+     "AAAA",
+     "AAAA",
+     "AAAA",
+     "AAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "gravity_store",
+  "structure": "quantavolt:gravity_store",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   3,
+   7,
+   3
+  ],
+  "controller": "quantavolt:gravity_store_controller",
+  "final": "quantavolt-guide-gravity_store-final.png",
+  "legend": {
+   "A": "quantavolt:gravity_shaft_casing",
+   "B": "quantavolt:turbine_glass",
+   "C": "quantavolt:gravity_weight",
+   "D": "quantavolt:gravity_store_controller",
+   "E": "quantavolt:energy_input_port",
+   "F": "quantavolt:energy_output_port",
+   "G": "quantavolt:gravity_winch"
+  },
+  "totals": {
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:gravity_shaft_casing": 50,
+   "quantavolt:gravity_store_controller": 1,
+   "quantavolt:gravity_weight": 1,
+   "quantavolt:gravity_winch": 1,
+   "quantavolt:turbine_glass": 4
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-gravity_store-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:gravity_shaft_casing": 9
+    },
+    "grid": [
+     "AAA",
+     "AAA",
+     "AAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-gravity_store-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:gravity_shaft_casing": 7,
+     "quantavolt:gravity_weight": 1,
+     "quantavolt:turbine_glass": 1
+    },
+    "grid": [
+     "AAA",
+     "ACA",
+     "ABA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-gravity_store-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:gravity_shaft_casing": 6,
+     "quantavolt:gravity_store_controller": 1
+    },
+    "grid": [
+     "AEA",
+     "A.A",
+     "ADA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-gravity_store-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:gravity_shaft_casing": 6,
+     "quantavolt:turbine_glass": 1
+    },
+    "grid": [
+     "AFA",
+     "A.A",
+     "ABA"
+    ]
+   },
+   {
+    "label": "Layers 5\u20136 (identical)",
+    "shot": "quantavolt-guide-gravity_store-05.png",
+    "from": 5,
+    "to": 6,
+    "blocks": {
+     "quantavolt:gravity_shaft_casing": 14,
+     "quantavolt:turbine_glass": 2
+    },
+    "grid": [
+     "AAA",
+     "A.A",
+     "ABA"
+    ]
+   },
+   {
+    "label": "Layer 7",
+    "shot": "quantavolt-guide-gravity_store-06.png",
+    "from": 7,
+    "to": 7,
+    "blocks": {
+     "quantavolt:gravity_shaft_casing": 8,
+     "quantavolt:gravity_winch": 1
+    },
+    "grid": [
+     "AAA",
+     "AGA",
+     "AAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "smes",
+  "structure": "quantavolt:smes",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   7,
+   5,
+   5
+  ],
+  "controller": "quantavolt:smes_controller",
+  "final": "quantavolt-guide-smes-final.png",
+  "legend": {
+   "A": "quantavolt:cryostat_casing",
+   "B": "quantavolt:reactor_glass",
+   "C": "quantavolt:smes_controller",
+   "D": "quantavolt:smes_coil",
+   "E": "quantavolt:energy_output_port",
+   "F": "quantavolt:smes_converter",
+   "G": "quantavolt:gas_output_port",
+   "H": "quantavolt:dump_resistor",
+   "I": "quantavolt:cryocooler",
+   "J": "quantavolt:energy_input_port",
+   "K": "quantavolt:gas_input_port"
+  },
+  "totals": {
+   "quantavolt:cryocooler": 6,
+   "quantavolt:cryostat_casing": 111,
+   "quantavolt:dump_resistor": 9,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:gas_input_port": 1,
+   "quantavolt:gas_output_port": 1,
+   "quantavolt:reactor_glass": 14,
+   "quantavolt:smes_coil": 25,
+   "quantavolt:smes_controller": 1,
+   "quantavolt:smes_converter": 5
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-smes-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:cryostat_casing": 35
+    },
+    "grid": [
+     "AAAAAAA",
+     "AAAAAAA",
+     "AAAAAAA",
+     "AAAAAAA",
+     "AAAAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-smes-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:cryocooler": 2,
+     "quantavolt:cryostat_casing": 13,
+     "quantavolt:dump_resistor": 3,
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:gas_output_port": 1,
+     "quantavolt:reactor_glass": 4,
+     "quantavolt:smes_coil": 5,
+     "quantavolt:smes_controller": 1,
+     "quantavolt:smes_converter": 5
+    },
+    "grid": [
+     "AAAAAAA",
+     "AHIHIHA",
+     "EFFFFFG",
+     "ADDDDDA",
+     "ABBCBBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-smes-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:cryocooler": 2,
+     "quantavolt:cryostat_casing": 13,
+     "quantavolt:dump_resistor": 3,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:gas_input_port": 1,
+     "quantavolt:reactor_glass": 5,
+     "quantavolt:smes_coil": 10
+    },
+    "grid": [
+     "AAAAAAA",
+     "AHIHIHA",
+     "JDDDDDK",
+     "ADDDDDA",
+     "ABBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-smes-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:cryocooler": 2,
+     "quantavolt:cryostat_casing": 15,
+     "quantavolt:dump_resistor": 3,
+     "quantavolt:reactor_glass": 5,
+     "quantavolt:smes_coil": 10
+    },
+    "grid": [
+     "AAAAAAA",
+     "AHIHIHA",
+     "ADDDDDA",
+     "ADDDDDA",
+     "ABBBBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-smes-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:cryostat_casing": 35
+    },
+    "grid": [
+     "AAAAAAA",
+     "AAAAAAA",
+     "AAAAAAA",
+     "AAAAAAA",
+     "AAAAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "singularity_plant",
+  "structure": "quantavolt:singularity_plant",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   9,
+   9,
+   9
+  ],
+  "controller": "quantavolt:singularity_controller",
+  "final": "quantavolt-guide-singularity_plant-final.png",
+  "legend": {
+   "A": "quantavolt:singularity_frame",
+   "B": "quantavolt:singularity_casing",
+   "C": "quantavolt:reactor_glass",
+   "D": "quantavolt:singularity_controller",
+   "E": "quantavolt:coolant_channel",
+   "F": "quantavolt:radiation_collector",
+   "G": "quantavolt:gravitational_coil",
+   "H": "quantavolt:energy_input_port",
+   "I": "quantavolt:fluid_input_port",
+   "J": "quantavolt:energy_output_port",
+   "K": "quantavolt:fluid_output_port",
+   "L": "quantavolt:matter_injector",
+   "M": "quantavolt:gravimetry",
+   "N": "quantavolt:item_input_port"
+  },
+  "totals": {
+   "quantavolt:coolant_channel": 74,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:gravimetry": 1,
+   "quantavolt:gravitational_coil": 98,
+   "quantavolt:item_input_port": 1,
+   "quantavolt:matter_injector": 2,
+   "quantavolt:radiation_collector": 144,
+   "quantavolt:reactor_glass": 48,
+   "quantavolt:singularity_casing": 237,
+   "quantavolt:singularity_controller": 1,
+   "quantavolt:singularity_frame": 92
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-singularity_plant-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:singularity_casing": 49,
+     "quantavolt:singularity_frame": 32
+    },
+    "grid": [
+     "AAAAAAAAA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "AAAAAAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-singularity_plant-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:coolant_channel": 17,
+     "quantavolt:radiation_collector": 32,
+     "quantavolt:reactor_glass": 6,
+     "quantavolt:singularity_casing": 21,
+     "quantavolt:singularity_controller": 1,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BEFFEFFEB",
+     "BFEFFEFFB",
+     "BFFEFFEFB",
+     "BEFFEFFEB",
+     "BFEFFEFFB",
+     "BFFEFFEFB",
+     "BEFFEFFEB",
+     "ACCCDCCCA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-singularity_plant-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:coolant_channel": 8,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:gravitational_coil": 25,
+     "quantavolt:radiation_collector": 16,
+     "quantavolt:reactor_glass": 7,
+     "quantavolt:singularity_casing": 17,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BFFEFFEFB",
+     "JEGGGGGEK",
+     "BFGGGGGFB",
+     "HFGGGGGFI",
+     "BEGGGGGEB",
+     "BFGGGGGFB",
+     "BFFEFFEFB",
+     "ACCCCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-singularity_plant-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:coolant_channel": 8,
+     "quantavolt:gravitational_coil": 16,
+     "quantavolt:radiation_collector": 16,
+     "quantavolt:reactor_glass": 7,
+     "quantavolt:singularity_casing": 21,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BFEFFEFFB",
+     "BFGGGGGFB",
+     "BEG...GEB",
+     "BFG...GFB",
+     "BFG...GFB",
+     "BEGGGGGEB",
+     "BFEFFEFFB",
+     "ACCCCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-singularity_plant-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:coolant_channel": 8,
+     "quantavolt:gravimetry": 1,
+     "quantavolt:gravitational_coil": 16,
+     "quantavolt:matter_injector": 2,
+     "quantavolt:radiation_collector": 16,
+     "quantavolt:reactor_glass": 7,
+     "quantavolt:singularity_casing": 18,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BEFFEFFEB",
+     "BFGGGGGFB",
+     "LFG...GFB",
+     "BEG...GEM",
+     "LFG...GFB",
+     "BFGGGGGFB",
+     "BEFFEFFEB",
+     "ACCCCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 6",
+    "shot": "quantavolt-guide-singularity_plant-06.png",
+    "from": 6,
+    "to": 6,
+    "blocks": {
+     "quantavolt:coolant_channel": 8,
+     "quantavolt:gravitational_coil": 16,
+     "quantavolt:radiation_collector": 16,
+     "quantavolt:reactor_glass": 7,
+     "quantavolt:singularity_casing": 21,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BFFEFFEFB",
+     "BEGGGGGEB",
+     "BFG...GFB",
+     "BFG...GFB",
+     "BEG...GEB",
+     "BFGGGGGFB",
+     "BFFEFFEFB",
+     "ACCCCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 7",
+    "shot": "quantavolt-guide-singularity_plant-07.png",
+    "from": 7,
+    "to": 7,
+    "blocks": {
+     "quantavolt:coolant_channel": 8,
+     "quantavolt:gravitational_coil": 25,
+     "quantavolt:item_input_port": 1,
+     "quantavolt:radiation_collector": 16,
+     "quantavolt:reactor_glass": 7,
+     "quantavolt:singularity_casing": 20,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BFEFFEFFB",
+     "BFGGGGGFB",
+     "BEGGGGGEB",
+     "NFGGGGGFB",
+     "BFGGGGGFB",
+     "BEGGGGGEB",
+     "BFEFFEFFB",
+     "ACCCCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 8",
+    "shot": "quantavolt-guide-singularity_plant-08.png",
+    "from": 8,
+    "to": 8,
+    "blocks": {
+     "quantavolt:coolant_channel": 17,
+     "quantavolt:radiation_collector": 32,
+     "quantavolt:reactor_glass": 7,
+     "quantavolt:singularity_casing": 21,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBBBA",
+     "BEFFEFFEB",
+     "BFEFFEFFB",
+     "BFFEFFEFB",
+     "BEFFEFFEB",
+     "BFEFFEFFB",
+     "BFFEFFEFB",
+     "BEFFEFFEB",
+     "ACCCCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 9",
+    "shot": "quantavolt-guide-singularity_plant-09.png",
+    "from": 9,
+    "to": 9,
+    "blocks": {
+     "quantavolt:singularity_casing": 49,
+     "quantavolt:singularity_frame": 32
+    },
+    "grid": [
+     "AAAAAAAAA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "ABBBBBBBA",
+     "AAAAAAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "hawking_reactor",
+  "structure": "quantavolt:hawking_reactor",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   7,
+   7,
+   7
+  ],
+  "controller": "quantavolt:hawking_controller",
+  "final": "quantavolt-guide-hawking_reactor-final.png",
+  "legend": {
+   "A": "quantavolt:singularity_frame",
+   "B": "quantavolt:singularity_casing",
+   "C": "quantavolt:reactor_glass",
+   "D": "quantavolt:hawking_controller",
+   "E": "quantavolt:radiation_collector",
+   "F": "quantavolt:coolant_channel",
+   "G": "quantavolt:energy_output_port",
+   "H": "quantavolt:fluid_input_port",
+   "I": "quantavolt:item_input_port",
+   "J": "quantavolt:fluid_output_port",
+   "K": "quantavolt:matter_injector",
+   "L": "quantavolt:gravimetry",
+   "M": "quantavolt:energy_input_port"
+  },
+  "totals": {
+   "quantavolt:coolant_channel": 24,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:gravimetry": 1,
+   "quantavolt:hawking_controller": 1,
+   "quantavolt:item_input_port": 1,
+   "quantavolt:matter_injector": 1,
+   "quantavolt:radiation_collector": 74,
+   "quantavolt:reactor_glass": 24,
+   "quantavolt:singularity_casing": 118,
+   "quantavolt:singularity_frame": 68
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-hawking_reactor-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:singularity_casing": 25,
+     "quantavolt:singularity_frame": 24
+    },
+    "grid": [
+     "AAAAAAA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "AAAAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-hawking_reactor-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:coolant_channel": 6,
+     "quantavolt:hawking_controller": 1,
+     "quantavolt:radiation_collector": 19,
+     "quantavolt:reactor_glass": 4,
+     "quantavolt:singularity_casing": 15,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBA",
+     "BEFEEEB",
+     "BEEFEEB",
+     "BEEEFEB",
+     "BFEEEFB",
+     "BEFEEEB",
+     "ACCDCCA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-hawking_reactor-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:coolant_channel": 4,
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:item_input_port": 1,
+     "quantavolt:radiation_collector": 12,
+     "quantavolt:reactor_glass": 5,
+     "quantavolt:singularity_casing": 11,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBA",
+     "BFEEEFB",
+     "IE...EJ",
+     "BE...EB",
+     "GE...EH",
+     "BFEEEFB",
+     "ACCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-hawking_reactor-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:coolant_channel": 4,
+     "quantavolt:gravimetry": 1,
+     "quantavolt:matter_injector": 1,
+     "quantavolt:radiation_collector": 12,
+     "quantavolt:reactor_glass": 5,
+     "quantavolt:singularity_casing": 13,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBA",
+     "BEEEFEB",
+     "BF...FB",
+     "KE...EL",
+     "BE...EB",
+     "BEEEFEB",
+     "ACCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-hawking_reactor-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:coolant_channel": 4,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:radiation_collector": 12,
+     "quantavolt:reactor_glass": 5,
+     "quantavolt:singularity_casing": 14,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBA",
+     "BEEFEEB",
+     "BE...EB",
+     "BF...FB",
+     "ME...EB",
+     "BEEFEEB",
+     "ACCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 6",
+    "shot": "quantavolt-guide-hawking_reactor-06.png",
+    "from": 6,
+    "to": 6,
+    "blocks": {
+     "quantavolt:coolant_channel": 6,
+     "quantavolt:radiation_collector": 19,
+     "quantavolt:reactor_glass": 5,
+     "quantavolt:singularity_casing": 15,
+     "quantavolt:singularity_frame": 4
+    },
+    "grid": [
+     "ABBBBBA",
+     "BEFEEEB",
+     "BEEFEEB",
+     "BEEEFEB",
+     "BFEEEFB",
+     "BEFEEEB",
+     "ACCCCCA"
+    ]
+   },
+   {
+    "label": "Layer 7",
+    "shot": "quantavolt-guide-hawking_reactor-07.png",
+    "from": 7,
+    "to": 7,
+    "blocks": {
+     "quantavolt:singularity_casing": 25,
+     "quantavolt:singularity_frame": 24
+    },
+    "grid": [
+     "AAAAAAA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "ABBBBBA",
+     "AAAAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "dimensional_store",
+  "structure": "quantavolt:dimensional_store",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   5,
+   5
+  ],
+  "controller": "quantavolt:dimensional_controller",
+  "final": "quantavolt-guide-dimensional_store-final.png",
+  "legend": {
+   "A": "quantavolt:dimensional_casing",
+   "B": "quantavolt:reactor_glass",
+   "C": "quantavolt:dimensional_controller",
+   "D": "quantavolt:dimensional_stabiliser",
+   "E": "quantavolt:energy_input_port",
+   "F": "quantavolt:transfer_channel",
+   "G": "quantavolt:dimension_core",
+   "H": "quantavolt:energy_output_port"
+  },
+  "totals": {
+   "quantavolt:dimension_core": 1,
+   "quantavolt:dimensional_casing": 87,
+   "quantavolt:dimensional_controller": 1,
+   "quantavolt:dimensional_stabiliser": 3,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:reactor_glass": 8,
+   "quantavolt:transfer_channel": 2
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-dimensional_store-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:dimensional_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-dimensional_store-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:dimensional_casing": 13,
+     "quantavolt:dimensional_controller": 1,
+     "quantavolt:dimensional_stabiliser": 1,
+     "quantavolt:reactor_glass": 2
+    },
+    "grid": [
+     "AAAAA",
+     "A.D.A",
+     "A...A",
+     "A...A",
+     "ABCBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-dimensional_store-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:dimension_core": 1,
+     "quantavolt:dimensional_casing": 11,
+     "quantavolt:dimensional_stabiliser": 1,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:reactor_glass": 3,
+     "quantavolt:transfer_channel": 2
+    },
+    "grid": [
+     "AAAAA",
+     "A.D.A",
+     "EFGFH",
+     "A...A",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-dimensional_store-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:dimensional_casing": 13,
+     "quantavolt:dimensional_stabiliser": 1,
+     "quantavolt:reactor_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "A.D.A",
+     "A...A",
+     "A...A",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-dimensional_store-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:dimensional_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "gas_engine",
+  "structure": "quantavolt:gas_engine",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   6,
+   1,
+   2
+  ],
+  "controller": "quantavolt:gas_engine_controller",
+  "final": "quantavolt-guide-gas_engine-final.png",
+  "legend": {
+   "A": "quantavolt:gas_engine_controller",
+   "B": "quantavolt:engine_cylinder",
+   "C": "quantavolt:engine_generator",
+   "D": "quantavolt:gas_input_port",
+   "E": "quantavolt:fluid_input_port",
+   "F": "quantavolt:fluid_output_port",
+   "G": "quantavolt:heat_port",
+   "H": "quantavolt:energy_output_port"
+  },
+  "totals": {
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:engine_cylinder": 4,
+   "quantavolt:engine_generator": 1,
+   "quantavolt:fluid_input_port": 1,
+   "quantavolt:fluid_output_port": 1,
+   "quantavolt:gas_engine_controller": 1,
+   "quantavolt:gas_input_port": 1,
+   "quantavolt:heat_port": 1
+  },
+  "steps": [
+   {
+    "label": "Controller and cylinders",
+    "shot": "quantavolt-guide-gas_engine-01.png",
+    "blocks": {
+     "quantavolt:engine_cylinder": 4,
+     "quantavolt:gas_engine_controller": 1
+    },
+    "grid": [
+     "......",
+     "ABBBB."
+    ]
+   },
+   {
+    "label": "Generator at the end",
+    "shot": "quantavolt-guide-gas_engine-02.png",
+    "blocks": {
+     "quantavolt:engine_generator": 1
+    },
+    "grid": [
+     "......",
+     ".....C"
+    ]
+   },
+   {
+    "label": "Ports beside the line",
+    "shot": "quantavolt-guide-gas_engine-03.png",
+    "blocks": {
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:fluid_input_port": 1,
+     "quantavolt:fluid_output_port": 1,
+     "quantavolt:gas_input_port": 1,
+     "quantavolt:heat_port": 1
+    },
+    "grid": [
+     ".DEFGH",
+     "......"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "wind_turbine",
+  "structure": "quantavolt:wind_turbine",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   9,
+   11,
+   4
+  ],
+  "controller": "quantavolt:wind_turbine_controller",
+  "final": "quantavolt-guide-wind_turbine-final.png",
+  "legend": {
+   "A": "quantavolt:energy_output_port",
+   "B": "quantavolt:wind_tower",
+   "C": "quantavolt:wind_turbine_controller",
+   "D": "quantavolt:wind_generator",
+   "E": "quantavolt:wind_rotor_hub",
+   "F": "quantavolt:wind_rotor_blade"
+  },
+  "totals": {
+   "quantavolt:energy_output_port": 1,
+   "quantavolt:wind_generator": 2,
+   "quantavolt:wind_rotor_blade": 12,
+   "quantavolt:wind_rotor_hub": 1,
+   "quantavolt:wind_tower": 5,
+   "quantavolt:wind_turbine_controller": 1
+  },
+  "steps": [
+   {
+    "label": "Tower with the energy output port at its foot",
+    "shot": "quantavolt-guide-wind_turbine-01.png",
+    "blocks": {
+     "quantavolt:energy_output_port": 1,
+     "quantavolt:wind_tower": 5
+    },
+    "grid": [
+     ".........",
+     ".........",
+     "....A....",
+     "........."
+    ]
+   },
+   {
+    "label": "Nacelle: controller on the tower, generators behind it",
+    "shot": "quantavolt-guide-wind_turbine-02.png",
+    "blocks": {
+     "quantavolt:wind_generator": 2,
+     "quantavolt:wind_turbine_controller": 1
+    },
+    "grid": [
+     "....D....",
+     "....D....",
+     "....C....",
+     "........."
+    ]
+   },
+   {
+    "label": "Rotor: hub in front of the controller, equal blade arms",
+    "shot": "quantavolt-guide-wind_turbine-03.png",
+    "blocks": {
+     "quantavolt:wind_rotor_blade": 12,
+     "quantavolt:wind_rotor_hub": 1
+    },
+    "grid": [
+     ".........",
+     ".........",
+     ".........",
+     "FFFFEFFFF"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "capacitor_bank",
+  "structure": "quantavolt:capacitor_bank",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   3,
+   1
+  ],
+  "controller": "quantavolt:capacitor_bank_controller",
+  "final": "quantavolt-guide-capacitor_bank-final.png",
+  "legend": {
+   "A": "quantavolt:capacitor_bank_controller",
+   "B": "quantavolt:capacitor_module",
+   "C": "quantavolt:energy_input_port",
+   "D": "quantavolt:energy_output_port"
+  },
+  "totals": {
+   "quantavolt:capacitor_bank_controller": 1,
+   "quantavolt:capacitor_module": 6,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:energy_output_port": 1
+  },
+  "steps": [
+   {
+    "label": "Controller and modules",
+    "shot": "quantavolt-guide-capacitor_bank-01.png",
+    "blocks": {
+     "quantavolt:capacitor_bank_controller": 1,
+     "quantavolt:capacitor_module": 6
+    },
+    "grid": [
+     "ABBB."
+    ]
+   },
+   {
+    "label": "Energy ports",
+    "shot": "quantavolt-guide-capacitor_bank-02.png",
+    "blocks": {
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:energy_output_port": 1
+    },
+    "grid": [
+     "....C"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "solar_array",
+  "structure": "quantavolt:solar_array",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   6,
+   1,
+   4
+  ],
+  "controller": "quantavolt:solar_array_controller",
+  "final": "quantavolt-guide-solar_array-final.png",
+  "legend": {
+   "A": "quantavolt:solar_array_controller",
+   "B": "quantavolt:solar_panel"
+  },
+  "totals": {
+   "quantavolt:solar_array_controller": 1,
+   "quantavolt:solar_panel": 20
+  },
+  "steps": [
+   {
+    "label": "Controller",
+    "shot": "quantavolt-guide-solar_array-01.png",
+    "blocks": {
+     "quantavolt:solar_array_controller": 1
+    },
+    "grid": [
+     "......",
+     "......",
+     "......",
+     "A....."
+    ]
+   },
+   {
+    "label": "Modules next to each other",
+    "shot": "quantavolt-guide-solar_array-02.png",
+    "blocks": {
+     "quantavolt:solar_panel": 20
+    },
+    "grid": [
+     ".BBBBB",
+     ".BBBBB",
+     ".BBBBB",
+     ".BBBBB"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "solar_thermal",
+  "structure": "quantavolt:solar_thermal",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   10,
+   3,
+   6
+  ],
+  "controller": "quantavolt:solar_receiver",
+  "final": "quantavolt-guide-solar_thermal-final.png",
+  "legend": {
+   "A": "quantavolt:salt_tank_casing",
+   "B": "quantavolt:heat_port",
+   "C": "quantavolt:thermal_concrete",
+   "D": "quantavolt:heat_exchanger_tube",
+   "E": "quantavolt:molten_salt_controller",
+   "F": "quantavolt:solar_receiver",
+   "G": "quantavolt:heliostat"
+  },
+  "totals": {
+   "quantavolt:heat_exchanger_tube": 1,
+   "quantavolt:heat_port": 2,
+   "quantavolt:heliostat": 20,
+   "quantavolt:molten_salt_controller": 1,
+   "quantavolt:salt_tank_casing": 32,
+   "quantavolt:solar_receiver": 1,
+   "quantavolt:thermal_concrete": 1
+  },
+  "steps": [
+   {
+    "label": "Heat store: a molten-salt store with a heat port",
+    "shot": "quantavolt-guide-solar_thermal-01.png",
+    "blocks": {
+     "quantavolt:heat_exchanger_tube": 1,
+     "quantavolt:heat_port": 1,
+     "quantavolt:molten_salt_controller": 1,
+     "quantavolt:salt_tank_casing": 32,
+     "quantavolt:thermal_concrete": 1
+    },
+    "grid": [
+     "..........",
+     "..........",
+     "..........",
+     "......AAAA",
+     "......AAAA",
+     "......AAAA"
+    ]
+   },
+   {
+    "label": "Receiver and its heat port, touching the store's port",
+    "shot": "quantavolt-guide-solar_thermal-02.png",
+    "blocks": {
+     "quantavolt:heat_port": 1,
+     "quantavolt:solar_receiver": 1
+    },
+    "grid": [
+     "..........",
+     "..........",
+     "..........",
+     "..........",
+     "....FB....",
+     ".........."
+    ]
+   },
+   {
+    "label": "Heliostats joined to the receiver",
+    "shot": "quantavolt-guide-solar_thermal-03.png",
+    "blocks": {
+     "quantavolt:heliostat": 20
+    },
+    "grid": [
+     "GGGGG.....",
+     "GGGGG.....",
+     "GGGGG.....",
+     "GGGGG.....",
+     "..........",
+     ".........."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "large_gas_tank",
+  "structure": "quantavolt:large_gas_tank",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   5,
+   5,
+   5
+  ],
+  "controller": "quantavolt:large_gas_tank_controller",
+  "final": "quantavolt-guide-large_gas_tank-final.png",
+  "legend": {
+   "A": "quantavolt:gas_tank_casing",
+   "B": "quantavolt:turbine_glass",
+   "C": "quantavolt:large_gas_tank_controller",
+   "D": "quantavolt:gas_input_port",
+   "E": "quantavolt:gas_output_port"
+  },
+  "totals": {
+   "quantavolt:gas_input_port": 1,
+   "quantavolt:gas_output_port": 1,
+   "quantavolt:gas_tank_casing": 87,
+   "quantavolt:large_gas_tank_controller": 1,
+   "quantavolt:turbine_glass": 8
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-large_gas_tank-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:gas_tank_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-large_gas_tank-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:gas_tank_casing": 13,
+     "quantavolt:large_gas_tank_controller": 1,
+     "quantavolt:turbine_glass": 2
+    },
+    "grid": [
+     "AAAAA",
+     "A...A",
+     "A...A",
+     "A...A",
+     "ABCBA"
+    ]
+   },
+   {
+    "label": "Layer 3",
+    "shot": "quantavolt-guide-large_gas_tank-03.png",
+    "from": 3,
+    "to": 3,
+    "blocks": {
+     "quantavolt:gas_input_port": 1,
+     "quantavolt:gas_output_port": 1,
+     "quantavolt:gas_tank_casing": 11,
+     "quantavolt:turbine_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "A...A",
+     "D...E",
+     "A...A",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 4",
+    "shot": "quantavolt-guide-large_gas_tank-04.png",
+    "from": 4,
+    "to": 4,
+    "blocks": {
+     "quantavolt:gas_tank_casing": 13,
+     "quantavolt:turbine_glass": 3
+    },
+    "grid": [
+     "AAAAA",
+     "A...A",
+     "A...A",
+     "A...A",
+     "ABBBA"
+    ]
+   },
+   {
+    "label": "Layer 5",
+    "shot": "quantavolt-guide-large_gas_tank-05.png",
+    "from": 5,
+    "to": 5,
+    "blocks": {
+     "quantavolt:gas_tank_casing": 25
+    },
+    "grid": [
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA",
+     "AAAAA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "gas_derrick",
+  "structure": "quantavolt:gas_derrick",
+  "formed": true,
+  "state": "formed",
+  "size": [
+   3,
+   8,
+   3
+  ],
+  "controller": "quantavolt:gas_derrick_controller",
+  "final": "quantavolt-guide-gas_derrick-final.png",
+  "legend": {
+   "A": "quantavolt:derrick_frame",
+   "B": "quantavolt:gas_derrick_controller",
+   "C": "quantavolt:gas_output_port",
+   "D": "quantavolt:wellhead",
+   "E": "quantavolt:energy_input_port",
+   "F": "quantavolt:drill_pipe"
+  },
+  "totals": {
+   "quantavolt:derrick_frame": 63,
+   "quantavolt:drill_pipe": 5,
+   "quantavolt:energy_input_port": 1,
+   "quantavolt:gas_derrick_controller": 1,
+   "quantavolt:gas_output_port": 1,
+   "quantavolt:wellhead": 1
+  },
+  "steps": [
+   {
+    "label": "Layer 1",
+    "shot": "quantavolt-guide-gas_derrick-01.png",
+    "from": 1,
+    "to": 1,
+    "blocks": {
+     "quantavolt:derrick_frame": 9
+    },
+    "grid": [
+     "AAA",
+     "AAA",
+     "AAA"
+    ]
+   },
+   {
+    "label": "Layer 2",
+    "shot": "quantavolt-guide-gas_derrick-02.png",
+    "from": 2,
+    "to": 2,
+    "blocks": {
+     "quantavolt:derrick_frame": 5,
+     "quantavolt:energy_input_port": 1,
+     "quantavolt:gas_derrick_controller": 1,
+     "quantavolt:gas_output_port": 1,
+     "quantavolt:wellhead": 1
+    },
+    "grid": [
+     "AAA",
+     "CDE",
+     "ABA"
+    ]
+   },
+   {
+    "label": "Layers 3\u20137 (identical)",
+    "shot": "quantavolt-guide-gas_derrick-03.png",
+    "from": 3,
+    "to": 7,
+    "blocks": {
+     "quantavolt:derrick_frame": 40,
+     "quantavolt:drill_pipe": 5
+    },
+    "grid": [
+     "AAA",
+     "AFA",
+     "AAA"
+    ]
+   },
+   {
+    "label": "Layer 8",
+    "shot": "quantavolt-guide-gas_derrick-04.png",
+    "from": 8,
+    "to": 8,
+    "blocks": {
+     "quantavolt:derrick_frame": 9
+    },
+    "grid": [
+     "AAA",
+     "AAA",
+     "AAA"
+    ]
+   }
+  ]
+ }
+]
