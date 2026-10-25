@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/icon.png" width="96" alt="QuantaVolt icon">
+  <img src="images/icon.png" width="160" alt="QuantaVolt logo">
 </p>
 
 <h1 align="center">QuantaVolt</h1>
@@ -19,6 +19,7 @@
   <a href="#version-status">Versions</a> ·
   <a href="../../wiki">Wiki</a> ·
   <a href="api/README.md">API for mod developers</a> ·
+  <a href="#part-of-the-quantanetwork">QuantaNetwork</a> ·
   <a href="#license">License</a>
 </p>
 
@@ -37,23 +38,8 @@ is downloaded from Modrinth or CurseForge. QuantaVolt is not open source; see [L
   <img src="images/gallery/dimensional_store.jpg" width="49%" alt="Dimensional store with its floating core">
 </p>
 
-## New in 1.0.0
-
-* **Out of beta:** the fixes from the feedback on 0.2.0.
-* **Steam in other mods' tanks:** steam, exhaust steam and hot coolant now show their texture in tanks, pipes and screens of other mods (Oritech crashed on them before; tested with Oritech on Fabric and NeoForge 1.21.1).
-* **Turning drill string:** the Gas Derrick's drill string turns while it pumps, faster at a higher rate.
-
-## Since 0.2.0 – the gas update
-
-* **Natural gas:** find fields with the Gas Prospector and tap them with a Gas Derrick (3 × 3, 6–12 high). Fields are small or large, follow from the world seed and run dry for good; natural gas is worth twice as much as syngas in turbines, engines and boilers.
-* **Build Projector:** pick a plant's size within everything it allows, see the material list and project the plan into the world for everyone – small floating blocks where parts are missing, red frames where something is in the way. Works for all 22 multiblocks.
-* **Oxyfuel, Gas Flare, ash recipes:** oxygen boosts gas burners by 25 %, the flare burns surplus gas, ash becomes concrete and bone meal.
-* **Advancements** from the first dynamo to the dimensional store.
-* **Fixes:** capacitor bank and solar thermal ports on the controller's side work; connected textures close their inner corners; parts placed by commands join at once.
-
-Full list: [changelog](CHANGELOG.md).
-
-## What QuantaVolt is
+<a id="what-quantavolt-is"></a>
+![What QuantaVolt is](images/headers/what_is.png)
 
 * **A whole power industry to build:** Basic Dynamo and Stirling generator, Industrial Boiler and Steam Turbine,
   Gasifier, Gas Turbine and Gas Engine (combined cycle through heat ports), solar, solar thermal and wind, fission with
@@ -73,7 +59,40 @@ Full list: [changelog](CHANGELOG.md).
 * **Computer control:** with CC: Tweaked installed, the plants are peripherals that report their readings and take
   commands.
 
-## Works with other mods
+<a id="new-in-100"></a>
+![New in 1.0.0](images/headers/new.png)
+
+* **Out of beta:** the fixes from the feedback on 0.2.0.
+* **Steam in other mods' tanks:** steam, exhaust steam and hot coolant now show their texture in tanks, pipes and screens of other mods (Oritech crashed on them before; tested with Oritech on Fabric and NeoForge 1.21.1).
+* **Turning drill string:** the Gas Derrick's drill string turns while it pumps, faster at a higher rate.
+
+<a id="since-020-the-gas-update"></a>
+![Since 0.2.0 – the Gas Update](images/headers/gas_update.png)
+
+* **Natural gas:** find fields with the Gas Prospector and tap them with a Gas Derrick (3 × 3, 6–12 high). Fields are small or large, follow from the world seed and run dry for good; natural gas is worth twice as much as syngas in turbines, engines and boilers.
+* **Build Projector:** pick a plant's size within everything it allows, see the material list and project the plan into the world for everyone – small floating blocks where parts are missing, red frames where something is in the way. Works for all 22 multiblocks.
+* **Oxyfuel, Gas Flare, ash recipes:** oxygen boosts gas burners by 25 %, the flare burns surplus gas, ash becomes concrete and bone meal.
+* **Advancements** from the first dynamo to the dimensional store.
+* **Fixes:** capacitor bank and solar thermal ports on the controller's side work; connected textures close their inner corners; parts placed by commands join at once.
+
+Full list: [changelog](CHANGELOG.md).
+
+<a id="part-of-the-quantanetwork"></a>
+![Part of the QuantaNetwork](images/headers/network.png)
+
+![The QuantaNetwork](images/network.png)
+
+QuantaVolt belongs to the **QuantaNetwork** by cptgummiball:
+
+* [Pipster](https://github.com/CptGummiball/Pipster): readable pipes for items, fluids, gases and energy.
+* [QuantaVolt](https://github.com/CptGummiball/QuantaVolt): industrial power generation.
+* [QuantaWorks](https://github.com/CptGummiball/QuantaWorks): from raw matter to advanced industry.
+* [QuantaRift](https://github.com/CptGummiball/QuantaRift): endgame dimensional extraction.
+
+QuantaVolt itself needs only Pipster (and the Fabric API on Fabric); the others are optional.
+
+<a id="works-with-other-mods"></a>
+![Works with Other Mods](images/headers/compatibility.png)
 
 * Items, fluids and energy use the **standard interfaces of the loader** (Fabric Transfer API and Team Reborn Energy;
   NeoForge capabilities). 1 E = 1 FE. Cables and pipes of other mods connect without an extra integration.
@@ -86,7 +105,8 @@ Full list: [changelog](CHANGELOG.md).
 * Materials use the common `c:` tags. Checked with Mekanism (uranium, steel; NeoForge 1.21.1) and Tech Reborn (steel; Fabric 1.21.1
   and 26.3); ores also generate in the biomes of Terralith and Biomes O' Plenty (checked on 1.21.1 and 26.3).
 
-## Version status
+<a id="version-status"></a>
+![Version Status](images/headers/versions.png)
 
 All files are **1.0.0**.
 
@@ -113,7 +133,8 @@ All files are **1.0.0**.
 tests passed, and the integrations were started with the real mods. The exact loader versions are
 listed in the wiki under [Supported Versions](../../wiki/Supported-Versions).
 
-## Performance
+<a id="performance"></a>
+![Performance](images/headers/performance.png)
 
 Measured on one laptop (Intel Core i7-13700H): a dedicated server with 56 running plants and 170 single machines cost
 QuantaVolt 0.3–0.8 ms per tick in the median and at most 1.9 ms in the 99th percentile (QuantaVolt 0.2.0, Minecraft
@@ -121,7 +142,8 @@ QuantaVolt 0.3–0.8 ms per tick in the median and at most 1.9 ms in the 99th pe
 in the median, at most 2.2 ms in the 99th percentile (1.21.1 Fabric, 26.3 NeoForge). That is a measurement on that computer, not a promise for every server. Details:
 [Performance](../../wiki/Performance).
 
-## Downloads
+<a id="downloads"></a>
+![Downloads](images/headers/downloads.png)
 
 [Modrinth](https://modrinth.com/project/quantavolt)
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/quantavolt/)
@@ -129,13 +151,15 @@ in the median, at most 2.2 ms in the 99th percentile (1.21.1 Fabric, 26.3 NeoFor
 Please download QuantaVolt only from these pages. Pick the file whose name contains your
 Minecraft version, for your loader.
 
-## Reporting bugs
+<a id="reporting-bugs"></a>
+![Reporting Bugs](images/headers/bugs.png)
 
 Please open an [issue](../../issues/new/choose) with the Minecraft version, the loader and its
 version, the jar name, the other mods involved, and `logs/latest.log` (plus a crash report if
 there is one).
 
-## License
+<a id="license"></a>
+![License](images/headers/license.png)
 
 QuantaVolt is **not open source**. All rights reserved by cptgummiball; see [`LICENSE`](LICENSE).
 In short:
